@@ -9,7 +9,7 @@ const clipBoardButton = document.getElementById('clipboard');
 const clipboardAlert = document.getElementById('alert');
 
 const footerElement = document.querySelector('footer');
-footerElement.innerHTML = `<p>Copyright &copy; ${new Date().getFullYear()}</p>`;
+footerElement.innerHTML = `<p>Copyright &copy; ${new Date().getFullYear()} <a href="https://www.skdev.online">Skdev.Online</a></p>`;
 
 let state = {
   numbers: true,
